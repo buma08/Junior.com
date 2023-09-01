@@ -1,0 +1,176 @@
+  
+div.lform-container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap ;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+form.login-form{
+    padding-top: 50px;
+    width:500px;
+    height:450px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px #000;
+    position: relative;
+    top:-10%;
+    left:0%
+}
+h2.form-title{
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    position: relative;
+    left:37%;
+}
+input{
+    width:75%;
+    height:40px;
+    position: relative;
+    left:12.5%;
+    margin-top:25px;
+    border-radius: 5px;
+    border:none;
+    background:rgba(202, 209, 215, 0.1);
+    -webkit-box-shadow: 10px 10px 58px 25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 58px 25px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 58px 25px rgba(0,0,0,0.75);
+    outline: none;
+    color:rgb(202, 209, 215);
+    font-size: medium;
+}
+input::placeholder{
+    color:rgb(202, 209, 215);
+}
+.MuiOutlinedInput-notchedOutline {
+    border-width: 1px !important;
+    border: none !important;
+    background:rgba(202, 209, 215, 0.1);
+    -webkit-box-shadow: 10px 10px 58px 25px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 58px 25px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 58px 25px rgba(0,0,0,0.75);
+    color:aliceblue !important;
+  }
+  .Mui-focused .MuiOutlinedInput-notchedOutline {
+    border: none !important;
+    color:aliceblue !important;
+    
+  }
+  .Mui-selected{
+    color:aliceblue !important;
+    background: none !important;
+  }
+  .MuiOption-root{
+    color:aliceblue !important;
+    background: none !important;
+  }
+
+  .MuiMenuItem-root
+{
+    background: rgba(0, 0, 0, 0.5) !important;
+    color: aliceblue !important;
+}
+
+#error-form{
+  display: none;
+}
+#error-title{
+  display: block!important;
+}
+/* CSS */
+.button-48 {
+  appearance: none;
+  background-color: transparent;
+  border: 1px solid #00b3ff;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  margin-left: 5%;
+  margin-top:60px;
+  opacity: 1;
+  outline: 0;
+  padding: 1.5em 2.2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+  width:90%;
+}
+
+.button-48:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #0085be;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+  color:black;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+  color:black;
+}
+
+.button-48:after {
+  background-color: #00b3ff;
+  color:black;
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+}
+@media only screen and (max-width: 600px) {
+    div.lform-container{
+      width:100%;
+      align-items: center;
+      top:-60%
+    }
+    form.login-form{
+      width:90%;
+      left:0%
+    }
+}
+@media only screen and (min-width:601px) and (max-width:1024px){
+
+    div.lform-container{
+      width:100%;
+      align-items: center;
+      top:-60%
+    }
+    form.login-form{
+      width:500px;
+      height:450px;
+      left:-10%
+    }
+}
+.change-page-form-a{
+  text-decoration: underline;
+  color:aliceblue;
+  margin-left:43%;
+  position:relative;
+  top:20px
+}
